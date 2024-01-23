@@ -20,9 +20,6 @@ student_scores = [90.33, 40.5, 55.44, 70.05, 30.55, 25.45, 80.45, 95.3, 38.7, 40
 
 # Call `round_scores()` and print the result
 print(round_scores(student_scores))
-```python
-
-```python
 # Define `student_scores`
 student_scores = [90.33, 40.5, 55.44, 70.05, 30.55, 25.45, 80.45, 95.3, 38.7, 40.3]
 
@@ -39,9 +36,3 @@ def round_scores(student_scores):
 
 # Call `round_scores()` and print the result
 print(round_scores(student_scores))
-
-**Output:**
-
-
-
-

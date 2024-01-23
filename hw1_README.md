@@ -36,3 +36,17 @@ def round_scores(student_scores):
 
 # Call `round_scores()` and print the result
 print(round_scores(student_scores))
+
+```
+### Output
+```python
+[90, 40, 55, 70, 31, 25, 80, 95, 39, 40]
+
+```
+
+
+### 2. Non-Passing Students
+As you were grading the exam, you noticed some students weren't performing as well as you had hoped. But you were distracted, and forgot to note exactly how many students.
+
+Create the function count_failed_students(student_scores) that takes a list of student_scores. This function should count up the number of students who don't have passing scores and return that count as an integer. A student needs a score greater than 40 to achieve a passing grade on the exam.
+

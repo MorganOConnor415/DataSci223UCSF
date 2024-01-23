@@ -60,7 +60,7 @@ count_failed_students(student_scores=[90,40,55,70,30,25,80,95,38,40])
 ```
 ## Output:
 ```csharp
-[5]
+5
 ```
 ### 3. The "Best"
 
@@ -167,7 +167,7 @@ def perfect_score(student_info):
         # Check if the score is 100
         if score == 100:
             perfect_score_pair.append([name, score])
-            break  # Stop iterating after the first perfect score is found
+            
             
     return perfect_score_pair
 ​
@@ -178,7 +178,7 @@ print(result)
 ```
 ## Output:
 ```csharp
-[['Adam', 100]]
+['Adam', 100]
 ```
 
 

@@ -4,6 +4,27 @@ Collaborator: Hyelee Kim, Danny Chu
 
 # Instruction
 Followed instructions as given. 
+Exercise: Analyzing Chinook Database
+Preparation I've done:
+
+Retrieve the dataset and load it
+Load the %sql extension and point it at the database
+Display the tables and an example query
+Additional steps you might take:
+
+Add libraries for visualization (matplotlib, seaborn, plotly)
+Add libraries for statistics (numpy)
+Explore the dataset using SQL and/or pandas
+Retrieve a list of all the tracks in the database, displaying only the track name and the name of the album it belongs to. Limit the result to the first 5 rows.
+Operations: SELECT
+Find the total number of customers from each country. Display the country name and the corresponding count. Order the results by the count in descending order.
+Operations: SELECT, COUNT, GROUP BY, ORDER BY
+Identify the top 5 genres with the highest number of tracks. Display the genre name along with the total number of tracks for each genre.
+Operations: SELECT, COUNT, GROUP BY, ORDER BY
+Determine the average invoice total for each customer, considering both the album and individual track purchases. Display the customer's first and last name along with the average invoice total. Order the results by the average invoice total in descending order.
+Operations: SELECT, AVG, JOIN, GROUP BY, ORDER BY
+Identify the customer who spent the most on music purchases. Display the customer's first and last name, along with the total amount spent.
+Operations: SELECT, SUM, JOIN, GROUP BY, ORDER BY, LIMIT
 
 # Difficulties
 Understanding the intructions and what they were specifically asking and what the output should look like. Finding the averages of value was tricky because values were not specified.
